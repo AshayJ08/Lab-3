@@ -16,6 +16,35 @@ install.packages() goes in our console, because it does not need to be installed
 
 libary() should be incorporated into our qmd file, since it uploads all the package functions onto the file.
 
+## Question 4: 
 
+```{r}
+palmerpenguins::penguins
+```
+
+No,it does not run as I do not have the package installed.
+
+## Question 5:
+
+```{r}
+library(palmerpenguins)
+palmerpenguins::penguins
+```
+
+No, you do not need to library the palmerpenguins for the code to work.
+
+## Question 6:
+
+```{r}
+suppressWarnings(library(dplyr))
+```
+
+## Question 7: 
+
+```{r}
+iris2 <- arrange(iris, Petal.Length)
+
+print(head(iris2))
+```
 
 
