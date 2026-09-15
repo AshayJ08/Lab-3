@@ -1,0 +1,21 @@
+---
+title: "Lab--3"
+format: html
+editor: visual
+---
+
+## Question 1 :  
+
+The message git gives us is "Already up to date." This means that everything currently in our repository matches everything on Github, and that there are no new updates. 
+
+## Question 2: 
+
+install.packages() goes in our console, because it does not need to be installed repetitively. 
+
+## Question 3: 
+
+libary() should be incorporated into our qmd file, since it uploads all the package functions onto the file.
+
+
+
+
